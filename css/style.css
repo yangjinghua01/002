@@ -1,0 +1,315 @@
+#header{    width:1293px;   
+            margin-left: 130px;
+}
+a:link{     color: #FF6C00;
+            text-decoration: none;
+}
+a:visited{  color: #00FF00;
+            text-decoration: none;
+}
+a:hover{    color: #FF00FF;
+            text-decoration: none;
+}
+a:active{   color: #0000FF;
+            text-decoration:none;
+}
+.banner{    width: 1293px;
+}
+*{  
+   margin:0;  
+   padding:0; 
+}  
+.nav{   height:40px;  
+        width:750px;  
+        margin:0 auto;
+        margin-left: 600px;
+        padding-top: 100px;
+        font-weight: bold;
+}  
+.nav ul{  list-style:none;  
+}  
+ul li{  float:left;  
+        line-height:40px;  
+        text-align:center;  
+}  
+.nav a{ text-decoration:none;   
+        display:block;  
+        width:120px;  
+        height:40px;  
+}
+ul li ul li{ float:none;  
+}  
+ul li ul{  display:none;  
+}  
+/*为了兼容IE7设置的CSS样式，但是又必须写在a:hover前面*/  
+ul li ul li a:link,ul li ul li a:visited{   background-color:#EEEEEE;}  
+
+.logo{      width: 390px;   
+            height: 153px;
+            margin-left: 80px;
+            float: left;
+}
+.A{         float: left;
+            list-style-type: none;
+            margin-left: 500px;
+            color: red;
+            margin-top: 20px;
+}
+.B{         float: left;
+            list-style-type: none;
+            color: green;
+            margin-top: 20px;
+}
+.D{         width: 900px;
+            margin: 0 auto;
+            overflow: auto;
+}
+.D li{      list-style-type: none;
+            margin-top: 60px;
+            float: left;
+            margin: 0 45px;
+            margin-left: 40px;
+            margin-top: 20px;
+}
+.D li h3{   text-align: center;
+            font-size: 15px;
+            font-weight: normal;
+}
+.E{          width: 430px;
+            margin: 40px auto 40px auto;
+            text-align: center;
+}
+.F{          font-size: 16px;
+            font-weight: normal;
+            width: 430px;
+            height: 50px;
+            line-height:50px;
+            border-top: solid 2px black;
+            border-bottom: solid 2px black;
+            color: red;
+}
+.G{         color: black;
+}
+            
+#pic{       float: left;    
+            margin-left: 100px;
+            width: 1300px;
+            font-size: 17px;
+            color: #888; 
+            border-radius: 50px;
+                        
+}
+.K{         float: left;    
+            margin-right: 23px;
+            width: 500px;
+            text-align: right;
+            border-radius: 50px;
+            border: solid 1px #262027;
+            padding: 10px;
+            box-shadow: -1px 6px 8px 1px #ccc;
+            margin: 10px;
+            position: relative;
+}
+.K img{     width: 100%;
+            height:100%;
+}
+.K p{       line-height: 30px;
+            text-align: center;
+            font-size: 14px;
+            margin: 0;
+}
+#pic img:hover{  z-index: 2;
+            position: absolute;
+            left: -25px;
+            top: -10px;
+            width: 360px;
+            height: 360px;
+            border: solid 1px #262027;
+            box-shadow: -1px 6px 8px 1px #ccc;
+}
+#pic img{   border-radius: 50px;
+}
+.K a{       font-size: 14px;    
+            background-color: #888;
+            color: #fff;
+}
+a{          text-decoration: none;
+}
+.L{         float: left;    
+            width: 900px; 
+            height: 40px;
+}
+.main2{     float: left;
+            width: 1245px;
+            height: 350px;
+            background-color:#8F0F0F;
+            margin-top: 50px;
+            margin-left: 0px;
+}
+.BL{         width: 200px;
+            height: 315px;
+            margin-top: 20px;
+            float: left;
+            color: #FFFFCC;
+}
+.M{         font-size: 15px;
+            width: 200px;
+            height: 10px;
+            line-height: 2px;
+            margin-top: 30px;
+            float: left;
+            margin-left: 70px;
+            list-style-type: none;
+}
+.N{         font-size: 15px;
+            width: 200px;
+            height: 10px;
+            line-height: 2px;
+            margin-top: 6px;
+            float: left;
+            margin-left: 70px;
+            list-style-type: none;
+}
+.O{         font-size: 15px;
+            width: 200px;
+            height: 10px;
+            line-height: 2px;
+            margin-top: 20px;
+            float: left;
+            margin-left: 70px;
+            list-style-type: none;
+}
+.P{        font-size: 15px;
+            width: 200px;
+            height: 10px;
+            line-height: 2px;
+            margin-top: 8px;
+            float: left;
+            margin-left: 70px;
+            list-style-type: none;
+}
+.Q{          font-size: 15px;
+             width: 200px;
+             height: 10px;
+             line-height: 2px;
+             margin-top: 8px;
+             float: left;
+             margin-left: 70px;
+             list-style-type: none;
+}           
+.R{          font-size: 16px;
+             width: 200px;
+             height: 10px;
+             line-height: 2px;
+             margin-top: 30px;
+             float: left;
+             margin-left: 70px;
+             list-style-type: none;
+}
+.S{          font-size: 15px;
+             width: 260px;
+             height: 10px;
+             line-height: 2px;
+             margin-top: 70px;
+             float: left;
+             margin-left: 40px;
+             list-style-type: none;
+}
+.T{          font-size: 15px;
+             width: 200px;
+             height: 10px;
+             line-height: 2px;
+             margin-top: 30px;
+             float: left;
+             margin-left: 50px;
+             list-style-type: none;
+}
+.U{          border-left: 2px solid #AAA;
+             height: 260px;
+             margin-left: 200px;
+             margin-top: 50px;
+             width: 0px;
+             float: left;
+} 
+.V{          width: 250px;
+             height: 345px;
+             float: left;
+             margin-left: 100px;
+             margin-top: 50px;
+}
+.input2{	 width: 60px;
+			 height: 30px;
+			 background-color: chocolate;
+			 border: soloid 2px gray;
+			 margin-left: 45px;
+			 color :cornsilk;
+             margin-top: 6px;
+}
+.X{          border-left: 2px solid #AAA;
+             height: 260px;
+             margin-left: 110px;
+             margin-top: 45px;
+             width: 0px;
+             float: left;
+}
+ #main4{     width: 130px;
+             padding: 10px;
+             float: left;
+             margin-left: 70px;
+             margin-top: 10px
+}
+.a{          width: 100px;
+             height: 26px;
+             background-color: #888;
+             float: left;
+             color: #fff;
+             padding-top: 4px;
+             margin-top: 20px;
+             text-align: center;
+}
+.b{          width: 0;
+             height: 0;
+             border: 15px transparent solid;
+             border-left-color: #888;
+             margin-top: 20px;
+             float: left;
+}
+.DD{         font-size: 16px;
+             width: 270px;
+             height: 10px;
+             line-height: 8px;
+             margin-top: 240px;
+             margin-left: 900px;
+             list-style-type: none;
+             color: #FFFFCC;
+}
+.main3{     width: 0px;
+            height: 0px;
+            margin-left: 870px;            
+}
+.FF{         width: 360px;
+             margin:0;
+             margin-top: 0px;
+            margin-left: 15px;
+}
+.FF li{      list-style-type: none;
+             float: left;
+             margin: 5px;
+             margin-left: 8px;
+}
+.username{  border-radius: 13px;
+            margin: 1px auto;
+            resize: none;
+            width: 250px;
+            height: 30px;
+}
+.bg{
+            position: absolute;
+            background-color: black;
+            left: 200px;
+            filter: alpha(opacity=6);
+            -moz-opacity: 0.05;
+            opacity: 0.03;
+            font-size: 20px;
+            color: White;
+}

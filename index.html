@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>旅游</title>
+         <script type="text/javascript" src="js/setHomeSetFav.js"></script>
+        <script type="text/javascript" src="js/myfocus-2.0.1.min.js"></script><!--引入myFocus库-->
+        <script type="text/javascript">
+        myFocus.set({
+            id:'boxID',//焦点图盒子ID
+            pattern:'mF_fancy',//风格应用的名称
+            time:3,//切换时间间隔(秒)
+            trigger:'click',//触发切换模式:'click'(点击)/'mouseover'(悬停)
+            width:1293,//设置图片区域宽度(像素)
+            height:485,//设置图片区域高度(像素)
+            txtHeight:'default'//文字层高度设置(像素),'default'为默认高度，0为隐藏
+        });
+    </script>
+        <script langeuage="javascript">
+            function check(){
+                var myform = document.getElementById("myform"); //获得form表单对象
+                for(var i=0;i<myform.length;i++){ //循环form表单
+                if(myform.elements[i].value==""){ //判断每一个元素是否为空
+                alert(myform.elements[i].title+"不能为空！");
+                myform.elements[i].focus(); //元素获得焦点
+                return ;
+                }
+                }
+                myform.submit();
+                }
+        </script>
+        <script type="text/javascript" src="js/script.js"></script>
+        <link rel=stylesheet href="css/style.css"type="text/css">
+    </head>
+    <body>
+        <div id="header">
+            <div>
+                <div class="logo"><img src="images/logo.gif"></div>
+                <div id="nav" class="nav">  
+     <ul>  
+             <li onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="index.html">首　 页</a>  
+              <ul>  
+                  <li><a href="#">视频学习</a></li>  
+                  <li><a href="#">案例学习</a></li>  
+                  <li><a href="#">交流平台</a></li>  
+              </ul>  
+          </li>   
+          <li onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="about.html">关于我们</a>  
+              <ul>  
+                  <li><a href="#">JavaScript</a></li>  
+                  <li><a href="#">jQuery</a></li>  
+                  <li><a href="#">Ajax</a></li>  
+              </ul>  
+          </li>  
+          <li onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="inspirations.html">图片揽胜</a> 
+              <ul>  
+                  <li><a href="#">视频学习</a></li>  
+                  <li><a href="#">案例学习</a></li>  
+                  <li><a href="#">交流平台</a></li>  
+              </ul>  
+          </li>  
+          <li onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="blog.html">达人报告</a>  
+              <ul>  
+                  <li><a href="#">视频学习</a></li>  
+                  <li><a href="#">案例学习</a></li>  
+                  <li><a href="#">交流平台</a></li>  
+              </ul>  
+          </li> 
+         <li onmouseover="showsub(this)" onmouseout="hidesub(this)"><a href="contact.html">联系我们</a> 
+              <ul>  
+                  <li><a href="#">视频学习</a></li>  
+                  <li><a href="#">案例学习</a></li>  
+                  <li><a href="#">交流平台</a></li>  
+              </ul>  
+          </li>  
+     </ul>  
+</div>  
+                <div id=ad>
+            <div id="boxID"><!--焦点图盒子-->
+                <div class="pic"><!--内容列表(li数目可随意增减)-->
+                    <ul>
+                        <li><a href="#"><img src="images/ad1.png" thumb="" alt="" text="" /></a></li>
+                        <li><a href="#"><img src="images/ad2.png" thumb="" alt="" text="详细描述2" /></a></li>
+                        <li><a href="#"><img src="images/ad3.png" thumb="" alt="" text="详情描述3"/></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+            </div>
+        <div id="main"></div>
+        <div class="A"><li>爱上路旅游</li></div><div class="B"><li>，为爱情量身定制的旅游</li></div>
+        <div class="C">
+                    <ul class="D">
+                    <li><img src="images/%E7%88%B1%E4%B8%8A%E8%B7%AF.jpg"><h3>休闲</h3></li>
+                    <li><img src="images/%E7%88%B1%E4%B8%8A%E8%B7%AF%20(2).jpg"><h3>观光</h3></li>
+                    <li><img src="images/%E7%88%B1%E4%B8%8A%E8%B7%AF%20(3).jpg"><h3>美食</h3></li>
+                    <li><img src="images/%E7%88%B1%E4%B8%8A%E8%B7%AF%20(4).jpg"><h3>运动</h3></li>
+                    <li><img src="images/%E7%88%B1%E4%B8%8A%E8%B7%AF%20(5).jpg"><h3>有爱</h3></li>
+                    </ul>
+            </div>
+        <div class="E">
+                <h2 class="F"><em>爱上路</em> <span class="G">热门线路推荐</span></h2>
+            </div>
+        <div id="pic">
+                    <div class="K"><img src="images/yidali.gif">
+            <p>意大利美食美景美好人生之旅&emsp;&emsp;&emsp;&emsp;&ensp;<a href="Route%20details.html">&emsp;&nbsp;详细&emsp;&nbsp;</a></p> </div>
+                    <div class="K"><img src="images/logo (8).gif">
+            <p>西班牙浪漫天涯一生跟你走蜜月游&emsp;&emsp;&emsp;&ensp;<a href="Route%20details.html">&emsp;&nbsp;详细&emsp;&nbsp;</a></p></div>
+        <div class="L"></div>   
+                    <div class="K"><img src="images/faguo.gif">
+            <p>法国南部永恒薰衣草印象游&emsp;&emsp;&emsp;&emsp;&emsp;<a href="Route%20details.html">&emsp;&nbsp;详细&emsp;&nbsp;</a></p></div>
+                    <div class="K"><img src="images/logo (10).gif">
+            <p>希腊浓情蜜意之旅&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;<a href="Route%20details.html">&emsp;&nbsp;详细&emsp;&nbsp;</a></p></div>
+            </div>
+        <div class="main2">
+                <ul class="BL">
+                    <li class="M">Love On Road GmbH</li><li class="N">中国爱上路有限责任公司</li>
+                    <li class="O">Heidengaessli 10</li><li class="P">4450 Sissach</li>
+                    <li class="Q">Svitzerland 中国</li><li class="R">2579949378@qq.com</li>
+                    <li class="S">---------------------------------------</li>
+                    <li class="T">版权信息 2019 by Liu Yang</li>
+                </ul>
+                <div class="U"></div>
+                    <div class="V">
+                        <form method="post">
+                        <textarea class="username" rome="50" cols="30">请输入姓名</textarea><br>
+                        <br><textarea class="username" rome="50" cols="30">请准确输入密码</textarea><br>
+                        <br><textarea class="username" roms="30" cols="30">联系方式</textarea><br>
+                        <br><textarea class="username" roms="50" cols="30">投诉内容</textarea><br>
+                        <input class="input2" type="submit" value="提交">
+                        <input class="input2" type="reset" value="取消">    
+                        </form>
+                    </div>
+               <div class="X"></div>
+                <div id="main4">
+                     <a href="#">
+                <div class="a">更多路线</div>
+                <div class="b"></div>
+                     </a>
+                     <a href="#">
+                <div class="a">认识我们</div>
+                <div class="b"></div>
+                     </a>
+                     <a href="#">
+                <div class="a">热点答疑</div>
+                <div class="b"></div>
+                     </a>
+                    <a href="#">
+                <div class="a">服务流程</div>
+                <div class="b"></div>
+                    </a>
+                </div>
+                    <li class="DD">---------------------------------------</li>
+                <div class="main3">
+                    <ul class="FF">
+                        <li><img src="images/logo%20(11).gif"></li>
+                        <li><img src="images/logo%20(12).gif"></li>
+                        <li><img src="images/logo%20(13).gif"></li>
+                        <li><img src="images/logo%20(14).gif"></li>
+                        <li><img src="images/logo%20(15).gif"></li>
+                    </ul>
+            </div><div style="float: right"><a href="#top">跳转顶端</a></div>
+
+<div class="bg">
+        <br>
+        <br>
+        DO NOT COPY!!
+        </div>
+            </div>
+        </div>
+    </body>
+</html>
